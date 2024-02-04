@@ -1,0 +1,54 @@
+h2{
+    text-align: center;
+    color: red;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add_list{
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 293px;
+    margin: auto;
+    padding: 15px;
+    gap: 15px;
+    margin-top: 10px;
+}
+.btnadd{
+    background-color: green;
+    color: white;
+    width: 14%;
+    margin-left: 15px;
+    
+}
+.btncla{
+    margin: 9px;
+    background-color: red;
+}
+ul{
+    display: flex;
+    gap: 4px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+ul li{
+    list-style-type: none;
+    width: 100%;
+    margin: 5px;
+}
+.chek{
+    background-color: rgb(88, 218, 49);
+}
+.checkd{
+    background-color: rgb(226, 58, 58);
+    text-decoration: line-through;
+    color: white;
+
+}
